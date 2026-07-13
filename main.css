@@ -1,0 +1,84 @@
+:root {
+  --gray: #333335;
+  --shelstone: #d9cbc2;
+  --blue: #3c507d;
+  --swanwing: #f5f0e9; 
+  --quicksand: #e0c58f;
+}
+
+.Titulo_Header {
+    background-color: var(--shelstone);
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--gray);
+    font-size: xx-large;
+}
+.navegador {
+    background-color: var(--shelstone);
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--gray);
+    font-size: medium;
+}
+
+.light-theme {
+    background-color: var(--shelstone);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.container {
+    background-color: var(--shelstone);
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--gray);
+    font-size: medium;
+}
+
+h3.container {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: medium;
+    color: var(--gray);
+}
+
+ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 50 px;
+}
+
+li {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+h2.container {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: var(--gray);
+}
+
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--shelstone);
+    font-size: medium;
+    font-variant: normal;
+}
+.boton {
+  background-color: var(--shelstone);
+  border: none;
+  color: gray;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+.footer {
+    background-color: var(--shelstone);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    
+}
